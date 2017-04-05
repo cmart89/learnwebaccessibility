@@ -55,7 +55,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-feed
-  jekyll-gist
+  jekyll-gist 
   jekyll-sitemap
 
 BUNDLED WITH
