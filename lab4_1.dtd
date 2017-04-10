@@ -1,9 +1,8 @@
 <!ENTITY f "Female">
 <!ENTITY m "Male">
-<!Element patientdata (patient)>
+<!ELEMENT patientdata (patient)>
 <!ELEMENT patient
 	(id, name, birthdate, gender, servicedate, code, diagnosis)>
-
 <!ELEMENT id			(#PCDATA)>	
 <!ELEMENT name			(#PCDATA)>
 <!ELEMENT birthdate		(#PCDATA)>
