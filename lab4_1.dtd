@@ -1,0 +1,13 @@
+<!ENTITY f "Female">
+<!ENTITY m "Male">
+<!Element patientdata (patient)>
+<!ELEMENT patient
+	(id, name, birthdate, gender, servicedate, code, diagnosis)>
+
+<!ELEMENT id			(#PCDATA)>	
+<!ELEMENT name			(#PCDATA)>
+<!ELEMENT birthdate		(#PCDATA)>
+<!ELEMENT gender		(#PCDATA)>
+<!ELEMENT servicedate	(#PCDATA)>
+<!ELEMENT code			(#PCDATA)>
+<!ELEMENT diagnosis		(#PCDATA)>
